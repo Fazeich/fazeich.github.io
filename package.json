@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://fazeich.github.io/",
+  "homepage": "https://fazeich.github.io",
   "scripts": {
     "dev": "vite --config configs/vite.config.ts",
     "build": "tsc -b && vite build --config configs/vite.config.ts",

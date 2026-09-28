@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", "Segoe UI", system-ui, sans-serif;
+  user-select: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+  background: #fbf6ec;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #d49b00;
+  outline-offset: 3px;
+}

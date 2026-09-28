@@ -36,7 +36,8 @@ export const App = () => {
       if (isUseKey(event)) {
         const painting = PAINTINGS.find((p) => p.id === $activePainting.getState());
 
-        if (painting?.url) window.location.assign(painting.url);
+        // New tab, so the gallery stays open where the visitor left it.
+        if (painting?.url) window.open(painting.url, "_blank", "noopener,noreferrer");
       }
     };
 
